@@ -20,12 +20,12 @@ public class LoginPage extends TestBase{
 	WebElement LoginButton;
 	
 	@FindBy(xpath = "//a[contains(text(), 'Sign Up')]")
-	WebElement SingUpButton;
+	WebElement SignUpButton;
 	
-	@FindBy(xpath = "//span[@class = 'icon icon-xs mdi-chart-bar']")
-	WebElement LOGINButton;
+	//@FindBy(xpath = "//span[@class = 'icon icon-xs mdi-chart-bar']")
+	//WebElement LOGINButton;
 	
-//Initialize the Page Factor or Object Repository	
+//Initialize the Page Factory or Object Repository	
 	public LoginPage()     //LoginPage Constructor is created
 	{
 		PageFactory.initElements(driver, this);  //Initialize Page Factory or Object Repository
@@ -36,7 +36,7 @@ public class LoginPage extends TestBase{
 	
 	//Method1 or Action1
 	public String validateLoginPageTitle() {
-		return driver.getTitle();
+		 return driver.getTitle();
 	}
 	
 
@@ -51,4 +51,11 @@ public class LoginPage extends TestBase{
 		return  new HomePage();  //After clicking on "click" button we will navigate to HomePage() - as per the diagram. We need to add "new" before 
 		//HomePage() because we already have a HomePage()
 		}
+	
+	public SignUpPage SignUp()
+	{
+		SignUpButton.click();
+		
+		return new SignUpPage();
+	}
 }

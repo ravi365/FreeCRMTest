@@ -32,7 +32,7 @@ public class LoginPageTest extends TestBase{
 	public void ValidateLoginPageTitleTest()
 	{
 		String title = loginpage.validateLoginPageTitle();  //We are calling "validateLoginPageTitle" method from "LoginPage.java"
-		Assert.assertEquals(title, "Free CRM #1 cloud software for any business large or small");
+		Assert.assertEquals(title, "Cogmento CRM");
 		
 	}
 	

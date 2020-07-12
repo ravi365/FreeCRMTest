@@ -30,6 +30,7 @@ public class TestBase {
 		
 		try {
 			FileInputStream ip = new FileInputStream("C:\\Users\\RSS\\eclipse-workspace\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+			//C:\Users\RSS\git\FreeCRMTest\FreeCRMTest\src\main\java\com\crm\qa\config
 			try {
 				prop.load(ip);
 			} catch (IOException e) {
