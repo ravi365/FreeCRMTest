@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-12T00:06:51 EDT" name="Default suite" finished-at="2020-07-12T00:07:18 EDT" duration-ms="27812">
+  <suite started-at="2020-07-12T12:26:43 EDT" name="Default suite" finished-at="2020-07-12T12:27:09 EDT" duration-ms="26196">
     <groups>
     </groups>
-    <test started-at="2020-07-12T00:06:51 EDT" name="Default test" finished-at="2020-07-12T00:07:18 EDT" duration-ms="27812">
-      <class name="com.crm.qa.testcases.SignUpPageTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.SignUpPageTest@6dbb137d]" started-at="2020-07-12T00:06:51 EDT" name="SetUp" finished-at="2020-07-12T00:07:01 EDT" duration-ms="10653" status="PASS">
+    <test started-at="2020-07-12T12:26:43 EDT" name="Default test" finished-at="2020-07-12T12:27:09 EDT" duration-ms="26196">
+      <class name="com.crm.qa.testcases.DealsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6dbb137d]" started-at="2020-07-12T12:26:43 EDT" name="setUp" finished-at="2020-07-12T12:26:54 EDT" duration-ms="10904" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="EnterDetailsTest()[pri:1, instance:com.crm.qa.testcases.SignUpPageTest@6dbb137d]" started-at="2020-07-12T00:07:01 EDT" name="EnterDetailsTest" finished-at="2020-07-12T00:07:02 EDT" duration-ms="334" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidateDealsPageLogoTest()[pri:1, instance:com.crm.qa.testcases.DealsPageTest@6dbb137d]" started-at="2020-07-12T12:26:54 EDT" name="ValidateDealsPageLogoTest" finished-at="2020-07-12T12:26:54 EDT" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EnterDetailsTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.crm.qa.testcases.SignUpPageTest@6dbb137d]" started-at="2020-07-12T00:07:02 EDT" name="TearDown" finished-at="2020-07-12T00:07:02 EDT" duration-ms="765" status="PASS">
+        </test-method> <!-- ValidateDealsPageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6dbb137d]" started-at="2020-07-12T12:26:54 EDT" name="tearDown" finished-at="2020-07-12T12:26:55 EDT" duration-ms="839" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.SignUpPageTest@6dbb137d]" started-at="2020-07-12T00:07:02 EDT" name="SetUp" finished-at="2020-07-12T00:07:17 EDT" duration-ms="15008" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6dbb137d]" started-at="2020-07-12T12:26:55 EDT" name="setUp" finished-at="2020-07-12T12:27:04 EDT" duration-ms="9344" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="RegisterLogoTest()[pri:2, instance:com.crm.qa.testcases.SignUpPageTest@6dbb137d]" started-at="2020-07-12T00:07:17 EDT" name="RegisterLogoTest" finished-at="2020-07-12T00:07:18 EDT" duration-ms="226" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="AddNewDealsTest()[pri:2, instance:com.crm.qa.testcases.DealsPageTest@6dbb137d]" started-at="2020-07-12T12:27:04 EDT" name="AddNewDealsTest" finished-at="2020-07-12T12:27:08 EDT" duration-ms="4126" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RegisterLogoTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.crm.qa.testcases.SignUpPageTest@6dbb137d]" started-at="2020-07-12T00:07:18 EDT" name="TearDown" finished-at="2020-07-12T00:07:18 EDT" duration-ms="779" status="PASS">
+        </test-method> <!-- AddNewDealsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@6dbb137d]" started-at="2020-07-12T12:27:08 EDT" name="tearDown" finished-at="2020-07-12T12:27:09 EDT" duration-ms="810" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.crm.qa.testcases.SignUpPageTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.DealsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
