@@ -37,7 +37,7 @@ public class DealsPageTest extends TestBase {
 	public void ValidateDealsPageLogoTest()
 	{
 		dealspage.ValidateDealsPageLogo();
-		Assert.assertTrue(true, "Correct Logo");
+		Assert.assertTrue(true, "inCorrect Logo");
 	}
 	
 	@Test(priority = 2)

@@ -48,6 +48,7 @@ public class LoginPage extends TestBase{
 		password.sendKeys(pwd);
 		LoginButton.click();
 		
+		//HomePage() homepage = new HomePage();
 		return  new HomePage();  //After clicking on "click" button we will navigate to HomePage() - as per the diagram. We need to add "new" before 
 		//HomePage() because we already have a HomePage()
 		}

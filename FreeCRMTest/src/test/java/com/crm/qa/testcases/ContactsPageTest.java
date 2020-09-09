@@ -64,6 +64,7 @@ public class ContactsPageTest extends TestBase {
 		Thread.sleep(3000);
 		contactspage.AddNewContacts(firstName, lastName);
 		
+		
 	}
 	
 	

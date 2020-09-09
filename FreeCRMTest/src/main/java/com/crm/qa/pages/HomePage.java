@@ -42,6 +42,7 @@ public class HomePage extends TestBase {
 	{
 		contactsLink.click();
 		return new ContactsPage();  //Return Contacts Page Objects
+		
 	}
 	//NOTE: IF WE ARE USING ANY METHOD, AND USING "CLICK" AND IF IT IS GOING TO ANOTHER PAGE, THEN WE SHOULD CREATE THAT METHOD OBJECT
 	
