@@ -52,6 +52,7 @@ public class ContactsPage extends TestBase{
 		lastName.sendKeys(ln);
 		Thread.sleep(2000);
 		saveButton.click();
+		Thread.sleep(2000);
 	}
 
 }
